@@ -1,0 +1,8 @@
+#here you can out the files that you don't want to put to your repo this is important security practice 
+#i am not uploading the venv/ because  it holds a lot of libraries like everything my virtual env uses .. so space wise thats not efficient 
+#but then it kinda creates a problem right because  those are all the dependencies like libraries that i installed cause i needed them for my fast API 
+
+
+__pycache__
+venv/  
+.env
